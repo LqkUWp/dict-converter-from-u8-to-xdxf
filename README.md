@@ -5,13 +5,13 @@ adapt https://github.com/k-sl/CedictXML to python3 and compile it to win10-64bit
 you only need the `.exe` to convert `.u8` dictionary to `.xdxf` format. usage is similar with https://github.com/k-sl/CedictXML. 
 ```
 # generate ./CC-CEDICT_<date>-1.2.xdxf via example.u8
-cedictxml.exe -i example.u8
+u8_to_xdxf.exe -i example.u8
 
 # generate example.xdxf via example.u8
-cedictxml.exe -i example.u8 -o example.xdxf
+u8_to_xdxf.exe -i example.u8 -o example.xdxf
 
 # download the latest .u8 dict from https://www.mdbg.net/chinese/dictionary?page=cc-cedict and convert it to .xdxf format in the current path
-cedictxml.exe -d
+u8_to_xdxf.exe -d
 ```
 
 # how are these files generated
