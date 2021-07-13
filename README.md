@@ -10,7 +10,7 @@ u8_to_xdxf.exe -i example.u8
 # generate example.xdxf via example.u8
 u8_to_xdxf.exe -i example.u8 -o example.xdxf
 
-# download the latest .u8 dict from https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip and convert it to .xdxf format in the current path. you can also manually download the latest .u8 dict from https://www.mdbg.net/chinese/dictionary?page=cc-cedict. 
+# download the latest .u8 dict from https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip and convert it to .xdxf format in the current path. you can also manually download the latest .u8 dict from https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 u8_to_xdxf.exe -d
 ```
 
