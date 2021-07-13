@@ -4,7 +4,7 @@ adapt https://github.com/k-sl/CedictXML to python3 and compile it to win10-64bit
 # usage
 you only need the `.exe` to convert `.u8` dictionary to `.xdxf` format. usage is similar with https://github.com/k-sl/CedictXML. 
 ```
-# generate ./CC-CEDICT_CC_<date>-1.2.xdxf via example.u8
+# generate ./CC-CEDICT_<date>-1.2.xdxf via example.u8
 cedictxml.exe -i example.u8
 
 # generate example.xdxf via example.u8
