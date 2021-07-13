@@ -1,5 +1,5 @@
 # dict-converter-from-u8-to-xdxf
-adapt https://github.com/k-sl/CedictXML to python3 and compile it to win10 .exe via cython. all commands following run correctly on my win10-64bit pc with `Python 3.8.2` and `MinGW-W64-builds-4.3.5`. 
+adapt https://github.com/k-sl/CedictXML to python3 and compile it to win10-64bit .exe via cython. all commands following run correctly on my win10-64bit pc with `Python 3.8.2` and `MinGW-W64-builds-4.3.5`. 
 
 # usage
 you only need the `.exe` to convert `.u8` dictionary to `.xdxf` format. usage is similar with https://github.com/k-sl/CedictXML. 
