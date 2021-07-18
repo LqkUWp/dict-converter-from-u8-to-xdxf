@@ -7,10 +7,10 @@ convert an original CC-CEDICT file to a XML dictionary file in the logical XDXF 
 # usage
 you only need the `.exe` to convert `.u8` dictionary to `.xdxf` format without any other dependency. usage is similar with https://github.com/k-sl/CedictXML. 
 ```
-# generate ./CC-CEDICT_<date>-1.2.xdxf via example.u8
+# generate ./CC-CEDICT_<date>-1.2.xdxf according to example.u8
 u8_to_xdxf.exe -i example.u8
 
-# generate example.xdxf via example.u8
+# generate example.xdxf according to example.u8
 u8_to_xdxf.exe -i example.u8 -o example.xdxf
 
 # download the latest .u8 dict from https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.zip and convert it to .xdxf format in the current path. you can also manually download the latest .u8 dict from https://www.mdbg.net/chinese/dictionary?page=cc-cedict
